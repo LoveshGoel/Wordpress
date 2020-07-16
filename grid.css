@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto
+}
+
+.center {
+    text-align: center
+}
+
+.left {
+    text-align: left
+}
+
+.right {
+    text-align: right
+}
+
+.justify {
+    text-align: justify
+}
+
+.grid-row {
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.grid-container {
+    width: 100%;
+    max-width: 70%;
+    padding: 10px
+}
+
+.container-bg {
+    padding: 30px 20px!important;
+    background-color: rgba(0, 0, 0, .63);
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    line-height: 2
+}
+
+.big-font {
+    font-size: 30px
+}
+
+p.normal-font {
+    font-size: 25px
+}
+
+.overlay {
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    left: 0
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/vsl-bg1.jpg);
+    padding: 200px 0!important;
+    height: 100vh
+}
+
+span#countdowntimer {
+    background-color: #fff;
+    padding: 4px 10px;
+    font-size: 30px!important;
+    border-radius: 3px
+}
+
+.red-text {
+    color: red
+}
+
+.grid-container-full {
+    width: 100%;
+    padding: 10px;
+    max-width: auto
+}
+
+.image {
+    width: 100%;
+    max-width: 80%
+}
+
+.default-button {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+    word-wrap: break-word;
+    background-color: #71ab37;
+    border-radius: 2px;
+    border: 2px solid #71ab37;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    transition: .3s ease
+}
+
+.round-button {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+    word-wrap: break-word;
+    background-color: #71ab37;
+    border-radius: 20px;
+    border: 2px solid #71ab37;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    transition: .3s ease
+}
+
+.white-bg {
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #d8d8d8
+}
+
+img.gif {
+    width: 100%;
+    max-width: 600px
+}
+
+.lato {
+    font-family: Lato, sans-serif
+}
+
+.grid-1 {
+    width: 8.33%;
+    float: left;
+    padding: 15px
+}
+
+.grid-2 {
+    width: 16.66%;
+    float: left;
+    padding: 15px
+}
+
+.grid-3 {
+    width: 25%;
+    float: left;
+    padding: 15px
+}
+
+.grid-4 {
+    width: 33.3%;
+    float: left;
+    padding: 15px
+}
+
+.grid-5 {
+    width: 41.66%;
+    float: left;
+    padding: 15px
+}
+
+.grid-6 {
+    width: 50%;
+    float: left;
+    padding: 15px
+}
+
+.grid-7 {
+    width: 58.33%;
+    float: left;
+    padding: 15px
+}
+
+.grid-8 {
+    width: 66.66%;
+    float: left;
+    padding: 15px
+}
+
+.grid-9 {
+    width: 75%;
+    float: left;
+    padding: 15px
+}
+
+.grid-10 {
+    width: 83.33%;
+    float: left;
+    padding: 15px
+}
+
+.grid-11 {
+    width: 91.33%;
+    float: left;
+    padding: 15px
+}
+
+.grid-12 {
+    width: 100%;
+    padding: 12px
+}
+
+@media (max-width:960px) {
+    .grid-md-1 {
+        width: 8.33%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-2 {
+        width: 16.66%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-3 {
+        width: 25%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-4 {
+        width: 33.3%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-5 {
+        width: 41.66%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-6 {
+        width: 50%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-7 {
+        width: 58.33%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-8 {
+        width: 66.66%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-9 {
+        width: 75%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-10 {
+        width: 83.33%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-11 {
+        width: 91.33%;
+        float: left;
+        padding: 15px
+    }
+    .grid-md-12 {
+        width: 100%;
+        padding: 12px
+    }
+    .grid-container {
+        width: 100%;
+        max-width: 80%;
+        padding: 10px
+    }
+}
+
+@media(max-width:767px) {
+    .grid-sm-1 {
+        width: 8.33%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-2 {
+        width: 16.66%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-3 {
+        width: 25%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-4 {
+        width: 33.3%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-5 {
+        width: 41.66%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-6 {
+        width: 50%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-7 {
+        width: 58.33%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-8 {
+        width: 66.66%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-9 {
+        width: 75%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-10 {
+        width: 83.33%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-11 {
+        width: 91.33%;
+        float: left;
+        padding: 15px
+    }
+    .grid-sm-12 {
+        width: 100%;
+        padding: 12px
+    }
+    .grid-container {
+        width: 100%;
+        max-width: 90%;
+        padding: 10px
+    }
+    .grid-row {
+        width: auto;
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+    }
+    .big-font {
+        font-size: 25px
+    }
+    p.normal-font {
+        font-size: 20px
+    }
+    .bg-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../Images/vsl-bg1.jpg);
+        padding: 300px 0!important;
+        height: 100vh
+    }
+}
+
+@media (max-width:475px) {
+    .big-font {
+        font-size: 22px
+    }
+    p.normal-font {
+        font-size: 18px
+    }
+    .grid-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px
+    }
+}
